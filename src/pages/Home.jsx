@@ -158,7 +158,7 @@ function HeroSection() {
                 className={`font-heading font-bold leading-[0.88] tracking-tight ${
                   word === 'SPEAKS.' ? 'text-[#DC2626]' : 'text-white'
                 }`}
-                style={{ fontSize: 'clamp(3rem, 12vw, 10rem)' }}
+                style={{ fontSize: 'clamp(3rem, 7vw, 4.5rem)' }}
               >
                 {word}
               </h1>
@@ -444,7 +444,7 @@ function PortfolioScroll() {
         >
           <div>
             <div className="w-10 h-[3px] bg-[#DC2626] mb-6" />
-            <h2 className="font-heading font-bold text-white leading-[0.92]" style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}>
+            <h2 className="font-heading font-bold text-white leading-[0.92]" style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}>
               THE <span className="text-[#DC2626]">WORK</span>
             </h2>
           </div>
@@ -636,7 +636,7 @@ function CTASection() {
 
       <div className="relative z-20 max-w-5xl mx-auto px-5 sm:px-8 lg:px-12 text-center">
         <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 0.8 }}>
-          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 8vw, 7rem)' }}>
+          <h2 className="font-heading font-bold text-white leading-[0.88] mb-8" style={{ fontSize: 'clamp(2.5rem, 7vw, 4.5rem)' }}>
             READY TO<br /><span className="text-[#DC2626]">PRINT?</span>
           </h2>
           <p className="text-[#D1D5DB]/50 text-sm sm:text-base lg:text-lg max-w-lg mx-auto mb-10 leading-relaxed">{homeCta.subtitle}</p>
