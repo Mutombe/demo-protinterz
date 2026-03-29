@@ -316,7 +316,7 @@ const siteData = {
   reviews: {
     heroTitle: [{ text: "What They " }, { text: "Say.", highlight: true }],
     heroSubtitle: "Our clients are our best salespeople. Here is what they think about our work.",
-    ratingBreakdown: [{ stars: 5, count: 52 }, { stars: 4, count: 11 }, { stars: 3, count: 3 }, { stars: 2, count: 1 }, { stars: 1, count: 0 }],
+    ratingBreakdown: { 5: 52, 4: 11, 3: 3, 2: 1, 1: 0 },
     items: [
       { name: "Tendai Moyo", role: "Marketing Director, Steward Bank", text: "Branded 30 vehicles. Still perfect after two years. Outstanding quality.", rating: 5, date: "1 month ago", project: "Vehicle Wrapping", avatar: "https://lh3.googleusercontent.com/a/default-user=s120-c" },
       { name: "Chiedza Nhamo", role: "Events Coordinator", text: "Exhibition stands, banners, cards, merchandise — all delivered on time and better than imports.", rating: 5, date: "2 months ago", project: "Large Format", avatar: "https://lh3.googleusercontent.com/a/default-user=s120-c" },
